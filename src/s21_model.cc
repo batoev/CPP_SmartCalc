@@ -8,6 +8,8 @@ s21::Model::Model(std::string infix_str, double variable_x)
 s21::Model::~Model() {}
 
 double s21::Model::Calc() {
+  StackTempRemove();
+  ListTokenRemove();
   int error = 0;
   SortingStation();
   double result = -1;
