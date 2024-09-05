@@ -16,7 +16,6 @@ int main(int argc, char *argv[]) {
       break;
     }
   }
-//  s21::Controller Controller;
   MainWindow w;
   w.show();
   return a.exec();

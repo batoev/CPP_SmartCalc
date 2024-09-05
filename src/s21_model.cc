@@ -152,7 +152,7 @@ void s21::Model::SortingStation() {
       ListTokenPushFront(NUM, variable_x_);
       unary_sign = false;
     } else if (ParserToken("pi")) {
-      ListTokenPushFront(NUM, S21_M_PI);
+      ListTokenPushFront(NUM, pi_);
       unary_sign = false;
       x_after_numbers = false;
     } else if (ParserToken("asin")) {

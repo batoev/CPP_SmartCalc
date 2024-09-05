@@ -9,9 +9,6 @@
 #include <stack>
 #include <string>
 
-#define EPS 1E-7
-#define S21_M_PI 3.14159265358979323846
-
 namespace s21 {
 
 class Model {
@@ -64,6 +61,7 @@ class Model {
   std::list<double> list_token_value_;
   std::stack<int> stack_temp_type_;
   std::stack<double> stack_temp_value_;
+  const double pi_ = 3.14159265358979323846;
 };
 
 class ModelCredit {
